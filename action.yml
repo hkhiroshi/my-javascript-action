@@ -1,0 +1,13 @@
+name: "My JavaScript Action"
+description: "Example JavaScript action"
+inputs:
+  message:
+    description: "Message to display"
+    required: true
+    default: "Hello World"
+outputs:
+  time:
+    description: "The time when the action was run"
+runs:
+  using: "node16"
+  main: "index.js"
